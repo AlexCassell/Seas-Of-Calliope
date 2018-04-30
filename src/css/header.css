@@ -1,0 +1,22 @@
+/*
+Alex Cassell
+alexcassell.com
+
+color scheme: https://coolors.co/02d7f0-493843-61988e-8eb19d-ee4266
+*/
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}

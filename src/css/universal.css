@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: Adventuring;
+    src: url(../fonts/Adventuring.otf);
+}
+
+.wrapper{
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    top: 50px;
+    font-family: Adventuring;
+    height: calc(100% - 50px);
+}

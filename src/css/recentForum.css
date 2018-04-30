@@ -1,0 +1,50 @@
+/*
+Alex Cassell
+alexcassell.com
+
+color scheme: https://coolors.co/02d7f0-493843-61988e-8eb19d-ee4266
+*/
+.recentForum__names {
+  position: relative;
+  padding-left: 5px;
+  color: #f4f4f8;
+  text-decoration: bold;
+}
+
+.recentForum__names:hover {
+  color: #8eb19d;
+}
+
+.recentForum__content {
+  color: black;
+  position: relative;
+  padding-left: 5px;
+}
+
+.recentForum__postTitle {
+  color: #f4f4f8;
+  position: relative;
+  padding-left: 5px;
+  font-style: italic;
+}
+
+.recentForum__timePosted {
+  color: #493843;
+}
+
+.recentForum__likes {
+  color: #ee4266;
+}
+
+.recentForum__likes:hover {
+  color: #493843;
+}
+
+.recentForum__comments {
+  padding-left: 15px;
+  color: #af3800;
+}
+
+.recentForum__comments:hover {
+  color: #493843;
+}

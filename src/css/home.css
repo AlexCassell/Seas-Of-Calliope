@@ -1,0 +1,148 @@
+/*
+Alex Cassell
+alexcassell.com
+
+color scheme: https://coolors.co/02d7f0-fe4a49-fed766-e6e6ea-f4f4f8
+*/
+
+/*   Structure     */
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__flexWrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.home__leftBackground {
+  height: 70vh;
+  margin-top: 10vh;
+  width: 25vw;
+  background: #3066be;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+.home__centerBackground {
+  height: 70vh;
+  margin-top: 10vh;
+  width: 40vw;
+  background: #3066be;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+.home__rightBackground {
+  height: 70vh;
+  margin-top: 10vh;
+  width: 25vw;
+  background: #3066be;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+.home__flexWrapperInside {
+  position: fixed;
+  top: 0px;
+  color: #f4f4f8;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.home__insideLeft {
+  height: 70vh;
+  margin-top: 10vh;
+  width: 25vw;
+  border: 2px solid #f4f4f8;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.home__insideCenter {
+  height: 70vh;
+  margin-top: 10vh;
+  width: 40vw;
+  border: 2px solid #f4f4f8;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.home__insideRight {
+  height: 70vh;
+  margin-top: 10vh;
+  width: 25vw;
+  border: 2px solid #f4f4f8;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.home__bottomBackground {
+  position: fixed;
+  bottom: 20px;
+  height: 15vh;
+  left: 1.5vw;
+  width: 97vw;
+  background: #3066be;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+.home__insideBottom {
+  position: fixed;
+  bottom: 20px;
+  height: 15vh;
+  left: 1.5vw;
+  width: 97vw;
+  border: 2px solid #f4f4f8;
+  color: #f4f4f8;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/*  Content  */
+
+.home__insideCenter__title {
+  position: relative;
+  text-shadow: 2px 2px #02d7f0;
+  font-size: 3vw;
+  top: 2vh;
+  margin-left: 15%;
+}
+
+.home__insideLeft__title {
+  position: relative;
+  text-shadow: 2px 2px #02d7f0;
+  font-size: 2vw;
+  top: 2vh;
+  margin-left: 18%;
+}
+
+.home__insideRight__title {
+  position: relative;
+  text-shadow: 2px 2px #02d7f0;
+  font-size: 2vw;
+  top: 2vh;
+  margin-left: 22%;
+}
+
+.home__recentForumWrapper {
+  position: relative;
+  top: 5vh;
+  width:24vw;
+  overflow-y: scroll;
+  height: 58.5vh;
+}
+
+.home__leaderboardsWrapper {
+  position: relative;
+  top: 5vh;
+}

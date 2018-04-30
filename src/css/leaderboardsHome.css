@@ -1,0 +1,145 @@
+.leaderboards {
+  /* position: absolute;
+  width: 100%;
+  height: 5px;
+  left: 0px;
+  top: -.7vh; */
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
+}
+
+.leaderboards__data__Wrapper{
+  position: absolute;
+  overflow-y: scroll;
+  width: 100%;
+  height: 50.5vh;
+  /* border: red solid 1px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.leaderboards__data__RowWrapper{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height:3vw;
+  min-height: 75px;
+}
+
+.leaderboards__data__RowWrapper:hover{
+  background: black;
+}
+
+.leaderboards__data__Row{
+  width: 33.33%;
+  text-align: center;
+  height: 3vw;
+}
+
+.leaderboards__data__Text{
+  position: relative;
+  font-size: 2vh;
+  top: 1vw;
+  color: white;
+  text-shadow: 1.5px 1.5px #02d7f0;
+}
+
+.leaderboards__data__TextScore{
+  font-size: 3vh;
+}
+.leaderboards__placeIcon {
+  position: relative;
+  height: 3vw;
+  width: 3vw;
+}
+
+
+/* .ui.table tr td {
+  border: 0px !important;
+} */
+/* 
+.leaderboard__position {
+  position: relative;
+  left: 10px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+}
+
+
+
+.leaderboards__placeIconNumber {
+  position: relative;
+  left: 0.4vw;
+  height: 2.3vw;
+  width: 2.3vw;
+}
+
+.leaderboards__menu {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.leaderboards__color{
+  color: white;
+  text-shadow: 1.5px 1.5px #02d7f0;
+} */
+
+/* 
+
+.leaderboards__content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: calc(100% - 50px);
+
+}
+
+.leaderboards__cardContent {
+  position: relative;
+  width: calc(100% - 5vw);
+  height: 2vw;
+  left:5vw;
+  padding-top: 1vh;
+  color: white;
+  border: red solid 2px;
+}
+
+.leaderboards__card {
+}
+
+.leaderboards__names {
+  color: white;
+  padding-right: 5px;
+}
+
+.leaderboards__icon {
+  position: relative;
+  width: 2vw;
+  height: 2vw;
+}
+
+.leaderboards__iconPlayerWrapper {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  left: 2.2vw;
+  text-align: center;
+}
+
+.leaderboards__iconPlayer {
+  position: relative;
+  top: .3vh;
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+.leaderboards__iconPlayerInfo {
+  position: relative;
+  top: 1vh;
+  left: 1vh;
+} */
