@@ -53,6 +53,15 @@ class Navigation extends Component {
             News
           </Menu.Item>
           <Menu.Item
+            name="auction"
+            active={activeItem === "auction"}
+            onClick={() => {
+              this.props.history.push("/auction");
+            }}
+          >
+            Auction House
+          </Menu.Item>
+          <Menu.Item
             name="forum"
             active={activeItem === "forum"}
             onClick={() => {
@@ -76,4 +85,3 @@ class Navigation extends Component {
   }
 }
 export default withRouter(Navigation);
-

@@ -31,7 +31,7 @@ const Home = () => (
             position: "absolute",
             top: "20vh",
             textAlign: "center",
-            width: "40vw"
+            width: "39.25vw"
           }}
         >
           This website is under construction; video commercial will go here.
@@ -39,12 +39,33 @@ const Home = () => (
             style={{
               position: "relative",
               marginTop: "2vh",
-              fontSize: "3vh",
+              fontSize: "2vh",
               textAlign: "center",
               lineHeight: "35px"
             }}
           >
-            The Seas of Calliope is Free to Play, 3D, indie MMO currently in closed Alpha (The open beta will be available for download in May).
+            The Seas of Calliope is Free to Play, 3D, indie MMO currently in
+            closed Alpha (The open beta will be available for download in May).
+            <div
+              style={{
+                textIndent: "3vw",
+                marginTop: "4vh",
+                textAlign: "left"
+              }}
+            >
+            Set in a beautiful post-apocalyptic cartoon wonderland.  Players start off with a small ship and must choose their destiny. Are you a brave explorer? Maybe a advantageous merchant? Or a skilled craftsman? Perhaps a daring treasure hunter? Is being a ruthless pirate in your future? More than likely a mix of all of these.
+
+            </div>
+            <div
+              style={{
+                textIndent: "3vw",
+                marginTop: "4vh",
+                textAlign: "left"
+              }}
+            >
+            Hire a crew.  Earn enough to purchase a fleet.  Learn new abilities, get a job or jobs, follow quests, drift from port to port, buying low, selling high, discover lost ports and inland cities: all while you unravel the mysteries of the old and new world. 
+            
+            </div>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import News from './components/News';
 import Support from './components/Support';
 import Home from './components/HomePage/index.js';
 import Forum from "./components/Forum/index.js";
+import AuctionHouse from "./components/AuctionHouse/index.js";
 
 export { 
   Home,
@@ -11,5 +12,6 @@ export {
   News,
   PlayNow,
   Features,
-  Forum
+  Forum,
+  AuctionHouse
 };

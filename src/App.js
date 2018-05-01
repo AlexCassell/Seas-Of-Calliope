@@ -5,6 +5,7 @@ import Home from "./components/HomePage/index.js";
 import PlayNow from "./components/PlayNow";
 import Features from "./components/Features";
 import News from "./components/News";
+import AuctionHouse from "./components/AuctionHouse/index.js";
 import Support from "./components/Support";
 import Forum from "./components/Forum/index.js";
 import Navigation from "./components/Navigation";
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path="/playnow" component={PlayNow} />
           <Route path="/features" component={Features} />
           <Route path="/news" component={News} />
+          <Route path="/auction" component={AuctionHouse} />
           <Route path="/forum" component={Forum} />
           <Route path="/support" component={Support} />
           <Navigation />

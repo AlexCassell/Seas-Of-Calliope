@@ -1,0 +1,148 @@
+/*
+Alex Cassell
+alexcassell.com
+
+color scheme: https://coolors.co/02d7f0-fe4a49-fed766-e6e6ea-f4f4f8
+*/
+
+/*   Structure     */
+.auctionHouse {
+  display: flex;
+  flex-direction: column;
+}
+
+.auctionHouse__flexWrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.auctionHouse__leftBackground {
+  height: 85vh;
+  margin-top: 10vh;
+  width: 30vw;
+  background: #3066be;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+.auctionHouse__centerBackground {
+  height: auto;
+  margin-top: 10vh;
+  width: 50vw;
+  background: #3066be;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+.auctionHouse__rightBackground {
+  height: 85vh;
+  margin-top: 10vh;
+  width: 10vw;
+  background: #3066be;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+.auctionHouse__flexWrapperInside {
+  position: fixed;
+  top: 0px;
+  color: #f4f4f8;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.auctionHouse__insideLeft {
+  height: 85vh;
+  margin-top: 10vh;
+  width: 30vw;
+  border: 2px solid #f4f4f8;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.auctionHouse__insideCenter {
+  height: auto;
+  margin-top: 10vh;
+  width: 50vw;
+  border: 2px solid #f4f4f8;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.auctionHouse__insideRight {
+  height: 85vh;
+  margin-top: 10vh;
+  width: 10vw;
+  border: 2px solid #f4f4f8;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.auctionHouse__bottomBackground {
+  position: fixed;
+  bottom: 20px;
+  height: 15vh;
+  left: 1.5vw;
+  width: 97vw;
+  background: #3066be;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+.auctionHouse__insideBottom {
+  position: fixed;
+  bottom: 20px;
+  height: 15vh;
+  left: 1.5vw;
+  width: 97vw;
+  border: 2px solid #f4f4f8;
+  color: #f4f4f8;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/*  Content  */
+
+.auctionHouse__insideCenter__title {
+  position: relative;
+  text-shadow: 2px 2px #02d7f0;
+  font-size: 3vw;
+  top: 2vh;
+  margin-left: 15%;
+}
+
+.auctionHouse__insideLeft__title {
+  position: relative;
+  text-shadow: 2px 2px #02d7f0;
+  font-size: 2vw;
+  top: 2vh;
+  margin-left: 18%;
+}
+
+.auctionHouse__insideRight__title {
+  position: relative;
+  text-shadow: 2px 2px #02d7f0;
+  font-size: 2vw;
+  top: 2vh;
+  margin-left: 22%;
+}
+
+.auctionHouse__recentForumWrapper {
+  position: relative;
+  top: 5vh;
+  width: 24vw;
+  overflow-y: scroll;
+  height: 58.5vh;
+}
+
+.auctionHouse__leaderboardsWrapper {
+  position: relative;
+  top: 5vh;
+}
